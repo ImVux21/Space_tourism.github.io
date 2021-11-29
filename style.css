@@ -72,7 +72,7 @@ ul, a {
 
 .wrapper {
     /* max-width: 1440px; */
-    min-height: 900px;
+    height: 900px;
 }
 
 header {
@@ -154,6 +154,10 @@ nav label {
 
 @media screen and (max-width: 769px) {
 
+    .wrapper {
+        min-height: 1024px;
+    }
+
     p {
         text-align: center;
     }
@@ -218,7 +222,8 @@ nav label {
 
         .wrapper {
             /* max-width: 1440px; */
-            min-height: 710px;
+            max-height: 850px;
+            min-height: 0;
         }
 
         .heading-1 {

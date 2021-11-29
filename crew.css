@@ -8,13 +8,10 @@ main {
 }
 
 .crew_slider {
-    display: grid;
-    grid-template-rows: auto;
-    align-items: center;
+    display: flex;
 }
 
 .crew_container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -65,9 +62,20 @@ main {
     background-color: #FFFFFF;
 }
 
+@media screen and (min-width: 770px) {
+    .crew_slider {
+        height: 654px;
+    }
+
+    .crew_container:nth-of-type(5) {
+        transform: translateY(58px);
+    }
+}
+
 @media screen and (max-width: 769px) {
     main {
         margin: 40px 39px 0;
+        height: 100%;
     }
 
     .crew_container {
