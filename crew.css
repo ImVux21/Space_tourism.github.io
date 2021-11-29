@@ -1,0 +1,131 @@
+.wrapper {
+    background: url("./images/Bitmap2.png");
+    background-size: cover;
+}
+
+main {
+    margin: 76px 137px 0 166.5px;
+}
+
+.crew_slider {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.crew_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crew_description {
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+}
+
+.crew_description .heading-4 {
+    margin-bottom: 15px;
+    filter: opacity(50.42%);
+}
+
+.crew_description .heading-4, .crew_description .heading-3 {
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.crew_description .heading-3 {
+    margin-bottom: 27px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 94px;
+    gap: 24px;
+    display: flex !important;
+}
+
+.slick-dots button {
+    cursor: pointer;
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #9797974d;
+}
+
+.slick-dots button:hover {
+    background-color: #ffffff83;
+}
+
+.slick-dots .slick-active button {
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 769px) {
+    main {
+        margin: 40px 39px 0;
+    }
+
+    .crew_container {
+        height: 820px;
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    .crew_container img {
+        width: auto;
+        height: 532px;
+    }
+
+    .crew_description {
+        align-items: center;
+    }
+
+    .crew_description .heading-4 {
+        margin-bottom: 8px;
+    }
+
+    .crew_description .heading-3 {
+        margin-bottom: 16px;
+    }
+
+    .slick-dots {
+        right: calc(50% + 60px);
+        top: 222px;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    main {
+        padding-bottom: 104px;
+    }
+
+    .crew_container {
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 74px;
+    }
+
+    .crew_container img {
+        width: 327px;
+        height: 223px;
+        object-fit: contain;
+        border-bottom: 1px solid #979797;
+    }
+
+    .slick-dots {
+        top: 255px;
+        right: calc(50% + 44px);
+    }
+
+    .slick-dots button {
+        width: 10px;
+        height: 10px;
+    }
+}
