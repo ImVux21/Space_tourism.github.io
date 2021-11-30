@@ -4,7 +4,7 @@
 }
 
 main {
-    margin: 76px 0 98px 166.5px;
+    padding: 76px 0 98px 166.5px;
 }
 
 .slick-track {
@@ -106,6 +106,10 @@ main {
         object-fit: cover;
     }
 
+    .tech-des {
+        padding: 0 155px 0;
+    }
+
     .tech-des .nav-text {
         margin-bottom: 16px;
     }
@@ -135,7 +139,7 @@ main {
 @media screen and (max-width: 376px) {
 
     main {
-        padding-bottom: 56px;
+        padding: 24px 0 81px;
     }
     .tiltle {
         padding: 0;

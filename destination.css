@@ -4,7 +4,7 @@
 }
 
 main {
-    margin: 76px 163px 118px 166.5px;
+    padding: 76px 163px 118px 166.5px;
 }
 
 .destination {
@@ -101,12 +101,11 @@ main {
 
 @media screen and (max-width: 769px) {
     main {
-        padding: 40px 39px 50px;
-        margin: 0;
+        padding: 40px 39px 62px;
     }
 
     .destination {
-        margin: 0;
+        margin: 0 59px 0;
         align-items: center;
         padding: 0;
     }
@@ -152,6 +151,10 @@ main {
     @media screen and (max-width: 376px) {
         main {
             padding: 24px 24px 58px;
+        }
+
+        .destination {
+            margin: 0;
         }
 
         .container_destination {

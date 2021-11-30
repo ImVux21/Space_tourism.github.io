@@ -4,7 +4,7 @@
 }
 
 main {
-    margin: 76px 137px 0 166.5px;
+    padding: 76px 137px 0 166.5px;
 }
 
 .crew_slider {
@@ -74,8 +74,7 @@ main {
 
 @media screen and (max-width: 769px) {
     main {
-        margin: 40px 39px 0;
-        height: 100%;
+        padding: 40px 39px 0;
     }
 
     .crew_container {
@@ -111,7 +110,7 @@ main {
 
 @media screen and (max-width: 376px) {
     main {
-        padding-bottom: 104px;
+        padding: 24px 25px 104px;
     }
 
     .crew_container {

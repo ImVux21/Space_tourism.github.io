@@ -70,11 +70,6 @@ ul, a {
     color: #D0D6F9;
 }
 
-.wrapper {
-    /* max-width: 1440px; */
-    height: 900px;
-}
-
 header {
     padding: 40px 0 0 55px;
     display: flex;
@@ -154,10 +149,6 @@ nav label {
 
 @media screen and (max-width: 769px) {
 
-    .wrapper {
-        min-height: 1024px;
-    }
-
     p {
         text-align: center;
     }
@@ -219,12 +210,6 @@ nav label {
     }
 
     @media screen and (max-width: 376px) {
-
-        .wrapper {
-            /* max-width: 1440px; */
-            max-height: 850px;
-            min-height: 0;
-        }
 
         .heading-1 {
             font-size: 80px;
