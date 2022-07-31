@@ -28,27 +28,29 @@ main {
     padding-bottom: 12px;
 }
 
-.destination_nav input[type="radio"]:checked ~ .nav-text {
-    border-bottom: 3px solid #FFFFFF;
+.destination_nav {
     color: #FFFFFF;
-}
-.destination_nav .nav-text:hover {
-    color: #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
     cursor: pointer;
 }
 
-.container_slider {
-    display: grid;
-    grid-template-rows: 1fr;
-    align-items: center;
+.destination_nav .active {
+    border-bottom: 3px solid #FFFFFF;
+    opacity: 1;
+}
+
+.destination_nav-item {
+    opacity: 0.5;
 }
 
 .container_destination {
-    display: flex;
     gap: 157px;
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.active {
+    display: flex;
 }
 
 .container_description {
@@ -73,31 +75,6 @@ main {
     gap: 17px;
 }
 
-.slick-dots {
-    position: absolute;
-    bottom: -80px;
-    display: flex !important;
-    gap: 27px;
-}
-
-.slick-dots button {
-    cursor: pointer;
-    font-size: 0;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    background-color: #9797974d;
-}
-
-.slick-dots button:hover {
-    background-color: #ffffff83;
-}
-
-.slick-dots .slick-active button {
-    background-color: #FFFFFF;
-}
 
 @media screen and (max-width: 769px) {
     main {
@@ -136,16 +113,6 @@ main {
 
     .container_infor {
         justify-content: space-around;
-    }
-
-    .slick-dots {
-        bottom: -25px;
-        right: calc(50% - 60px);
-    }
-
-    .slick-dots button {
-        width: 10px;
-        height: 10px;
     }
 
     @media screen and (max-width: 376px) {

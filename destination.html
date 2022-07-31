@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png">
-    <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="destination.css">
     <title>Space Tourism</title>
@@ -75,28 +70,24 @@
 
             <div class="destination">
                 <div class="destination_nav">
-                    <div>
-                        <input type="radio" id="moon" name="des" checked>
-                        <label for="moon" class="nav-text">MOON</label>
+                    <div class="destination_nav-item active">
+                        MOON
                     </div>
-                    <div>
-                        <input type="radio" id="mars" name="des">
-                        <label for="mars" class="nav-text">MARS</label>
+                    <div class="destination_nav-item">
+                        MARS
                     </div>
-                    <div>
-                        <input type="radio" id="eu" name="des">
-                        <label for="eu" class="nav-text">EUROPA</label>
+                    <div class="destination_nav-item">
+                        EUROPA
                     </div>
-                    <div>
-                        <input type="radio" id="titan" name="des">
-                        <label for="titan" class="nav-text">TITAN</label>
+                    <div class="destination_nav-item">
+                        TITAN
                     </div>
                 </div>
                 
                 <div class="container_slider">
                     <!-- Destination A- MOON -->
-                    <div class="container_destination">
-                        <img src="./images/moon.png" alt="">
+                    <div class="container_destination active">
+                        <div class="image"><img src="./images/moon.png" alt=""></div>
                         <div class="container">
                             <div class="container_description">
                                 <p class="heading-2">MOON</p>
@@ -116,7 +107,7 @@
                     </div>
                     <!-- destinationB - MARS -->
                     <div class="container_destination">
-                        <img src="./images/mars.png" alt="">
+                        <div class="image"><img src="./images/mars.png" alt=""></div>
                         <div class="container">
                             <div class="container_description">
                                 <p class="heading-2">MARS</p>
@@ -136,7 +127,7 @@
                     </div>
                     <!-- destination C - EUROPA -->
                     <div class="container_destination">
-                        <img src="./images/europa.png" alt="">
+                        <div class="image"><img src="./images/europa.png" alt=""></div>
                         <div class="container">
                             <div class="container_description">
                                 <p class="heading-2">EUROPA</p>
@@ -156,7 +147,7 @@
                     </div>
                     <!-- destination D - TITAN -->
                     <div class="container_destination">
-                        <img src="./images/titan.png" alt="">
+                        <div class="image"><img src="./images/titan.png" alt=""></div>
                         <div class="container">
                             <div class="container_description">
                                 <p class="heading-2">TITAN</p>
@@ -181,18 +172,6 @@
         </main>
     </div>
 
-    <script
-        type="text/javascript"
-        src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-        type="text/javascript"
-        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
     <script src="destination.js" type="text/javascript"></script>
 </body>
 </html>
